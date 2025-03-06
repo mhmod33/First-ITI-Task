@@ -38,23 +38,23 @@ h2{
 
 .slide:nth-child(1){
     animation-delay: 0s;
-    background: url(src/germoney.jpg);
+    background-image: url(../src/germoney.jpg);
 }
 
 .slide:nth-child(2){
     animation-delay: 4s;
-    background-image: url(src/dubai.jpg);
+    background-image: url(../src/dubai.jpg);
 }
 
 .slide:nth-child(3){
     animation-delay: 8s;
-    background: url(src/qatar.jpg);
+    background-image: url(../src/qatar.jpg);
 
 }
 
 .slide:nth-child(4){
     animation-delay: 12s;
-    background: url(src/saudi.jpg);
+    background-image: url(../src/saudi.jpg);
 
 }
 

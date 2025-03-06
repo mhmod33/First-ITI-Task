@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <title>Contact us</title>
+</head>
+<body>
+    <!-- previous page button -->
+    <div class="back">
+        <a href="index.html" target="_top" style="text-decoration: none; color: brown;">
+        <i class="fa-solid fa-circle-chevron-left" style="font-size: 35px;">
+        </i>
+        </a>
+    </div>
+    <!-- end of the previous page button -->
+
+    <!-- start of the form -->
+    <div class="form">
+    <form action="get">
+        <div class="name">
+            <div class="first" style="display: flex; flex-direction:column;">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required value=""><br>
+            </div>
+
+            <div class="last" style="display: flex; flex-direction:column;">
+            <label for="fname">Last Name</label>
+            <input type="text" id="lname" name="lname"  value=""><br>
+            </div>
+        </div>
+
+        <div class="mail-add" style="display: flex; flex-direction:row; gap: 10px;">
+            
+            <div class="mail" style="display: flex; flex-direction:column;">
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="mail"  value=""><br>
+            </div>
+
+            <div class="add" style="display: flex; flex-direction:column;">
+            <label for="address">Address</label>
+            <input type="Address" id="Address" name="Address" required value=""><br>
+            </div>
+        </div>
+
+
+        <div class="Pass" style="display: flex; flex-direction:row; gap: 10px;">
+
+        <div class="pass" style="display: flex; flex-direction:column;">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" value=""><br>
+        </div>
+
+        <div class="repass" style="display: flex; flex-direction:column;">
+        <label for="repassword">Retype Password:</label>
+        <input type="password" id="repassword" name="repassword" value=""><br>
+        </div>
+        </div>
+
+        <br>
+        <label for="aboutme">About me: </label><br>
+        <textarea id="aboutme" name="aboutme" rows="4" cols="50" ></textarea><br>
+
+       
+        <br>
+
+        <input type="submit" value="Submit" style="font-size: 25px; font-weight: 600; width: 100%; height: 65px;"><br>
+    </form>
+    </div>
+        <!-- end of the form -->
+   
+        <!-- get in touch -->
+    <div class="footer">
+   
+        <h1>Get in touch!</h1>
+        
+        <div class="socialmedia">
+            <a ><i class="fa-brands fa-facebook"></i> </a>
+            <a ><i class="fa-brands fa-twitter"></i> </a>
+            <a ><i class="fa-brands fa-instagram"></i> </a>
+            <a ><i class="fa-brands fa-linkedin"></i> </a>
+        </div>
+    </div>
+    <!-- end of get in touch -->
+</body>
+</html>
